@@ -5,4 +5,4 @@
 			'containerSelector': '.calculatorConfiguration'
 		});
 	});
-})(jQuery);
+});
