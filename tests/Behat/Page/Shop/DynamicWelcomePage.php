@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Tests\MangoSylius\PaymentFeePlugin\Behat\Page\Shop;
 
-use Sylius\Behat\Page\SymfonyPage;
+use FriendsOfBehat\PageObjectExtension\Page\SymfonyPage;
 
 class DynamicWelcomePage extends SymfonyPage implements WelcomePageInterface
 {

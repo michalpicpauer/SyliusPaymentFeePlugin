@@ -57,11 +57,8 @@ class PaymentMethodChoiceTypeExtension extends AbstractTypeExtension
 		$view->vars['payment_costs'] = $paymentCosts;
 	}
 
-	/**
-	 * {@inheritdoc}
-	 */
-	public function getExtendedType()
+	public static function getExtendedTypes(): iterable
 	{
-		return PaymentMethodChoiceType::class;
+		return [PaymentMethodChoiceType::class];
 	}
 }
